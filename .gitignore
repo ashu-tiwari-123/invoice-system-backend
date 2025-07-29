@@ -1,0 +1,66 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+*.sw?
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+coverage/
+
+# Frontend dependencies (React)
+client/node_modules/
+client/build/
+client/.next/
+
+# Backend compiled files (if using TypeScript)
+*.tsbuildinfo
+
+# Optional cache dirs
+.cache/
+tmp/
+temp/
+
+# Firebase / Netlify / Vercel
+.firebase/
+.netlify/
+.vercel/
+
+# Misc
+*.local
+*.sublime-workspace
+*.sublime-project
+
+# Ignore test coverage
+coverage/
+
+# Ignore database dump or uploads
+uploads/
+dump.sql
+dump/
+
+# Ignore gitignore (only if needed — advanced)
+# .gitignore
